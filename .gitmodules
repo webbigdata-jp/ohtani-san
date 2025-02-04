@@ -1,0 +1,3 @@
+[submodule "feed-generator"]
+	path = feed-generator
+	url = https://github.com/bluesky-social/feed-generator
