@@ -30,12 +30,11 @@ setup llama.cpp
 ```
 ./start_1.5b.sh
 yarn start
-
-```
 yarn publishFeed
+```
 
 example output
-
+```
 yarn run v1.22.22
 $ ts-node scripts/publishFeedGen.ts
 ? Enter your Bluesky handle: XXXXX.bsky.social
