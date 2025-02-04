@@ -1,3 +1,6 @@
 [submodule "feed-generator"]
 	path = feed-generator
 	url = https://github.com/webbigdata-jp/feed-generator.git
+[submodule "llama.cpp"]
+	path = llama.cpp
+	url = https://github.com/webbigdata-jp/llama.cpp.git
