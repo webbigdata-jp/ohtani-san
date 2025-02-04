@@ -14,26 +14,27 @@ setup llama.cpp
 
 ## Setup
 
-start_1.5b.sh
-
-cp .env.example .env
-FEEDGEN_HOSTNAME="yourdomain.com"
-eg:bsky.webbigdata.jp
-FEEDGEN_PUBLISHER_DID="did:plc:<your_did_info>"
-FEEDGEN_SQLITE_LOCATION="db.sqlite"
+- cp .env.example .env
+- FEEDGEN_HOSTNAME="yourdomain.com" (eg:bsky.webbigdata.jp)
+- FEEDGEN_PUBLISHER_DID="did:plc:<your_did_info>"
+- FEEDGEN_SQLITE_LOCATION="db.sqlite"
 
 ## domain setup
-setup your domain.com
-setup your https 
-run nginx as reverse proxy
-eg: sudo /opt/bitnami/ctlscript.sh stop nginx
+
+- setup your domain.com
+- setup your https 
+- run nginx as reverse proxy (eg: sudo /opt/bitnami/ctlscript.sh stop nginx)
 
 ## How to run
 
-./start_
+```
+./start_1.5b.sh
 yarn start
 
+```
 yarn publishFeed
+
+example output
 
 yarn run v1.22.22
 $ ts-node scripts/publishFeedGen.ts
@@ -45,15 +46,16 @@ $ ts-node scripts/publishFeedGen.ts
 ? Optionally, enter a brief description of your feed:
 ? Optionally, enter a local path to an avatar that will be used for the feed:
 Done in 173.29s.
+```
 
-feed is there.
+### sample feed
+feed is there.  
 https://bsky.app/profile/dahara1.bsky.social/feed/ohtani-san
 
-## reference
+## reference information
 
-
-https://github.com/bluesky-social/feed-generator
-https://docs.bsky.app/docs/starter-templates/custom-feeds
-https://atproto.com/ja
+- https://github.com/bluesky-social/feed-generator
+- https://docs.bsky.app/docs/starter-templates/custom-feeds
+- https://atproto.com/ja
 
 
