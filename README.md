@@ -12,18 +12,21 @@ yarn install
 
 setup llama.cpp
 
-## Setup
+### Setup
 
 - cp .env.example .env
 - FEEDGEN_HOSTNAME="yourdomain.com" (eg:bsky.webbigdata.jp)
 - FEEDGEN_PUBLISHER_DID="did:plc:<your_did_info>"
 - FEEDGEN_SQLITE_LOCATION="db.sqlite"
 
-## domain setup
+### domain setup
 
 - setup your domain.com
 - setup your https 
 - run nginx as reverse proxy (eg: sudo /opt/bitnami/ctlscript.sh stop nginx)
+
+### Llama.cpp setup
+see llama.cpp documentation
 
 ## How to run
 
