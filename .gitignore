@@ -1,6 +1,7 @@
 memo.txt
 old
 .env
+db.sqlite
 
 # Logs
 logs
