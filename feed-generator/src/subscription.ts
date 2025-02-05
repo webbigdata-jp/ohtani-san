@@ -6,70 +6,6 @@ import { FirehoseSubscriptionBase, getOpsByType } from './util/subscription'
 import { DatabaseSchema } from './db/schema'
 import { Kysely } from 'kysely'
 
-// LLM関連のアカウントリスト
-const LLM_ACCOUNTS = [
-  'burnytech.bsky.social',
-  'openrouter.bsky.social',
-  'sungkim.bsky.social',
-  'mechanicaldirk.bsky.social',
-  'sakanaai.bsky.social',
-  'reachsumit.bsky.social',
-  'hamel.bsky.social',
-  'rosiecampbell.xyz',
-  'hardmaru.bsky.social',
-  'nsaphra.bsky.social',
-  'tedunderwood.me',
-  'eliotkjones.bsky.social',
-  'catherinearnett.bsky.social',
-  'msharmas.bsky.social',
-  'joerocca.bsky.social',
-  'aarontay.bsky.social',
-  'swyx.io',
-  'aurelium.me',
-  'pinkddle.bsky.social',
-  'tokenbender.bsky.social',
-  'geronimo-ai.bsky.social',
-  'main-horse.bsky.social',
-  'adverb.bsky.social',
-  'cloneofsimo.bsky.social',
-  'wordgrammer.bsky.social',
-  'lhl.bsky.social',
-  'quanquangu.bsky.social',
-  'nopainkiller.bsky.social',
-  'vgel.me',
-  'cpaxton.bsky.social',
-  'unixpickle.bsky.social',
-  'alpindale.bsky.social',
-  'repligate.bsky.social',
-  'stochasticchasm.bsky.social',
-  'kalomaze.bsky.social',
-  'xenova.bsky.social',
-  'paper.bsky.social',
-  'davidberenstein.hf.co',
-  'osanseviero.bsky.social',
-  'latentspacepod.bsky.social',
-  'zacharylipton.bsky.social',
-  'xeophon.bsky.social',
-  'lauraruis.bsky.social',
-  'fofr.ai',
-  'pcarter.bsky.social',
-  'jeremy.lewi.us',
-  'chrisalbon.com',
-  'vikhyat.net',
-  'minimaxir.bsky.social',
-  'eugeneyan.com'
-].map(account => account.toLowerCase());
-
-async function analyzeText_lhl(text: string): Promise<boolean> {
-  try {
-    // ダミーの実装 - 実際の実装では適切なLLMエンドポイントに接続
-    return Math.random() > 0.5;
-  } catch (error) {
-    console.warn('Warning: Error in LLM analysis:', error);
-    return false;
-  }
-}
-
 
 interface CompletionResponse {
   content: string;
@@ -84,12 +20,15 @@ const MLB_KEYWORDS = [
   'shouhei',
   '大谷',
   'ohtani',
+  'Ohtani',
   'Otani',
+  'otani',
   '翔平',
 //  'Major League',
 //  'プロ野球',
 //  '大リーグ'
 ].map(keyword => keyword.toLowerCase());
+
 
 const WATCHED_ACCOUNTS = [
   'olmlb.bsky.social',
@@ -105,11 +44,10 @@ async function analyzeText(text: string): Promise<string | null> {
   const systemPrompt = `You are a helpful assistant that can understand both English and Japanese text. For the given text, respond with 'YES' if it contains ANY reference or connection to Shohei Ohtani (大谷翔平), a Japanese baseball player who plays as a pitcher and fielder in the American MLB(Major League Baseball:メジャーリーグ), DODGERS(ドジャーズ). This includes:
 - His name in any form (Ohtani, 大谷, 翔平, shohei, etc.)
 - His wife Mamiko (真美子さん)
-- His dog Dekopin (デコピン)
+- His dog Deko or Dekopin (デコピン)
 - His social media accounts
-- News articles about him
-- Any other content that mentions or relates to him, even briefly
-Even if the connection is minor or indirect, respond with 'YES' if there is ANY relation to Ohtani. Only respond with 'NO' if there is absolutely no connection to him or his immediate circle.`;
+- News articles about him - Any other content that mentions or relates to him, even briefly
+Even if the connection is minor or indirect, respond with 'YES' if there is ANY relation to Ohtani. Only respond with 'NO' if there is absolutely no connection to him or his immediate circle or A person named Ohtani who is not a baseball player.`;
 
 
   const formattedPrompt = `<|im_start|>system
@@ -122,7 +60,7 @@ ${text}<|im_end|>
 
   try {
     console.log('\nProcessing text:', text);
-    console.log('Sending request...');
+    //console.log('Sending request...');
 
     const response = await fetch('http://localhost:8080/completion', {
       method: 'POST',
@@ -154,11 +92,14 @@ interface Post {
   uri: string;
   cid: string;
   indexedAt: string;
+  author: string; // 追加
+  text: string; // 追加
 }
 
-
 export class FirehoseSubscription extends FirehoseSubscriptionBase {
+
   async handleEvent(evt: RepoEvent) {
+//    console.log("FirehoseSubscription")
     try {
       if (!isCommit(evt)) return
 
@@ -174,11 +115,7 @@ export class FirehoseSubscription extends FirehoseSubscriptionBase {
                 .deleteFrom('post')
                 .where('uri', 'in', postsToDelete)
                 .execute()
-              
-              await trx
-                .deleteFrom('lhl_list')
-                .where('uri', 'in', postsToDelete)
-                .execute()
+
             })
         } catch (error) {
           console.warn('Warning: Error deleting posts:', error)
@@ -186,30 +123,51 @@ export class FirehoseSubscription extends FirehoseSubscriptionBase {
       }
 
       // 新規投稿の処理
+      /*
       const postsToCreate = ops.posts.creates.map((create) => ({
         uri: create.uri,
         cid: create.cid,
         indexedAt: new Date().toISOString()
       }))
+      */
+      // 新規投稿の処理
+      const postsToCreate: Post[] = [];
+      for (const create of ops.posts.creates) {
+        const author = create.author; // ハンドルネームを取得
+        const text = create.record.text; // 投稿内容を取得
 
-      // LLMアカウントの投稿を処理
-      const lhlPostsToCreate = await Promise.all(
-        ops.posts.creates
-          .filter(create => 
-            LLM_ACCOUNTS.some(account => 
-              create.author.toLowerCase().includes(account)
-            )
-          )
-          .map(async (create) => {
-            const isRelevant = await analyzeText_lhl(create.record.text);
-            return {
+        // 条件1: WATCHED_ACCOUNTS に含まれるアカウントの投稿であるか確認
+        if (WATCHED_ACCOUNTS.includes(author)) {
+
+          postsToCreate.push({
+            uri: create.uri,
+            cid: create.cid,
+            indexedAt: new Date().toISOString(),
+            author: author, // 追加
+            text: text,     // 追加
+          });
+          continue; // この投稿は条件を満たしているので、次の投稿へ
+        }
+
+        // 条件2: MLB_KEYWORDS を含み、かつ、analyzeText 関数の戻り値が 'YES' であるか確認
+        const lowerCaseText = text.toLowerCase();
+        const hasKeyword = MLB_KEYWORDS.some(keyword => lowerCaseText.includes(keyword));
+
+        if (hasKeyword) {
+          const analyzeResult = await analyzeText(text);
+          console.log('analyzeResult:', analyzeResult);
+          if (analyzeResult === 'YES') {
+            postsToCreate.push({
               uri: create.uri,
               cid: create.cid,
               indexedAt: new Date().toISOString(),
-              isRelevant
-            };
-          })
-      )
+              author: author, // 追加
+              text: text,     // 追加
+            });
+          }
+        }
+      }
+
 
       // データベースに保存
       try {
@@ -222,12 +180,6 @@ export class FirehoseSubscription extends FirehoseSubscriptionBase {
                 .execute()
             }
 
-            if (lhlPostsToCreate.length > 0) {
-              await trx
-                .insertInto('lhl_list')
-                .values(lhlPostsToCreate)
-                .execute()
-            }
           })
       } catch (error) {
         console.warn('Warning: Error inserting posts:', error)
@@ -238,6 +190,4 @@ export class FirehoseSubscription extends FirehoseSubscriptionBase {
     }
   }
 }
-
-
 

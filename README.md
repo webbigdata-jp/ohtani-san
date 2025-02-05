@@ -10,8 +10,6 @@ curl -o- -L https://yarnpkg.com/install.sh | bash
 yarn install
 ```
 
-setup llama.cpp
-
 ### Setup
 
 - cp .env.example .env
@@ -30,12 +28,7 @@ see llama.cpp documentation
 
 ## How to run
 
-```
-./start_1.5b.sh
-yarn start
 yarn publishFeed
-```
-
 example output
 ```
 yarn run v1.22.22
@@ -50,9 +43,23 @@ $ ts-node scripts/publishFeedGen.ts
 Done in 173.29s.
 ```
 
+
+```
+./start_1.5b.sh
+yarn start
+```
+
+
 ### sample feed
 feed is there.  
 https://bsky.app/profile/dahara1.bsky.social/feed/ohtani-san
+
+## ToDo
+
+- I suspect that not all posts are being picked up (images, links, videos?)
+- It should be improved to also store rejection data for learning.
+- You should create a classifier for lighter ModernBERT etc. to make it more lightweight.
+
 
 ## reference information
 
