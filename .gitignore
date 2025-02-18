@@ -2,6 +2,8 @@ memo.txt
 old
 .env
 db.sqlite
+start.sh
+
 
 # Logs
 logs
