@@ -9,13 +9,21 @@ import { Kysely } from 'kysely'
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 import https from 'https';
 import { EventEmitter } from 'events';
+// ディフォルトは10
+EventEmitter.defaultMaxListeners = 25;
 
-// Create a global HTTPS agent with keep-alive
-const httpsAgent = new https.Agent({
+const blueSkyAgent = new https.Agent({
     keepAlive: true,
     keepAliveMsecs: 3000,
-    maxSockets: 25,
+    maxSockets: 100,
     maxFreeSockets: 10,
+});
+
+const geminiAgent = new https.Agent({
+    keepAlive: true,
+    keepAliveMsecs: 3000,
+    maxSockets: 6,
+    maxFreeSockets: 3,
 });
 
 const genAI = new GoogleGenerativeAI(process.env.API_KEY, {
@@ -24,12 +32,33 @@ const genAI = new GoogleGenerativeAI(process.env.API_KEY, {
             return fetch(url, {
                 ...init,
                 // @ts-ignore
-                agent: httpsAgent,
+                agent: geminiAgent, 
             });
         },
     },
 });
 const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-lite-preview-02-05" })
+
+const MAX_RETRIES = 3;
+const RETRY_DELAY = 1000;
+
+async function withRetry<T>(
+    operation: () => Promise<T>,
+    retries = MAX_RETRIES
+): Promise<T> {
+    try {
+        return await operation();
+    } catch (error) {
+        if (retries > 0 && error instanceof Error) {
+            if (error.message.includes('ECONNRESET') ||
+                error.message.includes('fetch failed')) {
+                await new Promise(resolve => setTimeout(resolve, RETRY_DELAY));
+                return withRetry(operation, retries - 1);
+            }
+        }
+        throw error;
+    }
+}
 
 interface CompletionResponse {
     content: string;
@@ -48,10 +77,15 @@ const MLB_KEYWORDS = [
 
 const MLB_NG_KEYWORDS = [
     '大谷秀',
+    '大谷雄',
     'botan',
     'ミリシタ',
     'Sunami',
-    'shotaniphone'
+    'shotaniphone',
+    'Joji Otani',
+    'minnesotaNice',
+    'otanidiot',
+    '大谷日出夫',
 ].map(keyword => keyword.toLowerCase());
 
 const MLB_KEYWORDS2 = [
@@ -61,6 +95,18 @@ const MLB_KEYWORDS2 = [
     'shohei otani',
     'shouhei otani',
     'shouhei ohtani',
+].map(keyword => keyword.toLowerCase());
+
+const MLB_KEYWORDS3 = [
+    ' soto',
+    ' ippei',
+    'dodgers',
+    ' MLB',
+    'Baseball',
+    '一平',
+    '野茂',
+    '野球',
+    'イチロー'
 ].map(keyword => keyword.toLowerCase());
 
 const WATCHED_ACCOUNTS = [
@@ -73,8 +119,7 @@ const WATCHED_ACCOUNTS = [
     'webbigdata.bsky.social'
 ];
 
-async function analyzeText(author: string, text: string): Promise<string | null> {
-    const systemPrompt = `You are a helpful assistant that can understand both English and Japanese text. For the given text, respond with 'YES' if it contains ANY reference or connection to Shohei Ohtani (大谷翔平), a Japanese baseball player who plays as a pitcher and fielder in the American Major League Baseball(MLB, メジャーリーグ), DODGERS(ドジャーズ). This includes:
+const systemPrompt = `You are a helpful assistant that can understand both English and Japanese text. For the given text, respond with 'YES' if it contains ANY reference or connection to Shohei Ohtani (大谷翔平), a Japanese baseball player who plays as a pitcher and fielder in the American Major League Baseball(MLB, メジャーリーグ), DODGERS(ドジャーズ). This includes:
 - His name in any form (Ohtani, 大谷, 翔平, shohei, etc.)
 - His wife Mamiko (真美子さん)
 - His dog Deko or Dekopin (デコピン)
@@ -85,26 +130,12 @@ Exceptions: Answer 'NO' in the following cases:
 - A person named Ohtani who is not a baseball player. (professional wrestling player, Biker, etc)
 `;
 
-    try {
-        console.log('\nProcessing text:', text);
-
-        // カスタムモデルインスタンスを作成（接続プールを利用）
-        const model = genAI.getGenerativeModel({
-            model: "gemini-2.0-flash-lite-preview-02-05"
-        });
-
+async function analyzeText(author: string, text: string): Promise<string | null> {
+    return withRetry(async () => {
+        console.log('\nProcessing author + text:', author + "\n" + text);
         const result = await model.generateContent([systemPrompt, author + "\n" + text]);
         return result.response.text().trim();
-
-    } catch (error) {
-        console.error('Error:', error);
-        if (error instanceof Error && error.message.includes('ECONNRESET')) {
-            console.log('Connection reset, retrying after delay...');
-            await new Promise(resolve => setTimeout(resolve, 1000));
-            return analyzeText(author, text); // 再試行
-        }
-        return null;
-    }
+    });
 }
 
 interface Post {
@@ -184,10 +215,22 @@ export class FirehoseSubscription extends FirehoseSubscriptionBase {
                     continue;
                 }
 
-                // 条件3: MLB_KEYWORDS を含み、かつ、analyzeText 関数の戻り値が 'YES' であるか確認
+                // 条件3: MLB_KEYWORDS と MLB_KEYWORDS3 の組み合わせチェック
                 const hasKeyword = MLB_KEYWORDS.some(keyword => lowerCaseText.includes(keyword));
+                const hasKeyword3 = MLB_KEYWORDS3.some(keyword => lowerCaseText.includes(keyword));
 
                 if (hasKeyword) {
+                    if (hasKeyword3) {
+                        // MLB_KEYWORDS と MLB_KEYWORDS3 の両方に該当する場合は直接追加
+                        postsToCreate.push({
+                            uri: create.uri,
+                            cid: create.cid,
+                            indexedAt: new Date().toISOString(),
+                            author: author,
+                            text: text,
+                        });
+                    } else {
+                    // MLB_KEYWORDS3 に該当しない場合のみ analyzeText を実行
                     const analyzeResult = await analyzeText(author, text);
                     console.log('analyzeResult:', analyzeResult);
                     if (analyzeResult === 'YES') {
@@ -201,6 +244,7 @@ export class FirehoseSubscription extends FirehoseSubscriptionBase {
                     }
                 }
             }
+        }
 
             // データベースに保存
             try {
