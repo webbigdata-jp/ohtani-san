@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # 設定
-PID_FILE="./server.pid"
-ENV_FILE=".env.gemini"
-LOG_FILE="server.log"
+PID_FILE="/home/gharada2013/install/ohtani-san/feed-generator/server.pid"
+ENV_FILE="/home/gharada2013/install/ohtani-san/feed-generator/.env.gemini"
+LOG_FILE="/home/gharada2013/install/ohtani-san/feed-generator/server.log"
 
 # 環境変数ファイルの読み込み
 if [ -f "$ENV_FILE" ]; then
@@ -14,10 +14,10 @@ else
 fi
 
 # API_KEYが設定されているか確認
-if [ -z "$GEMINI_API_KEY" ]; then
-    echo "エラー: GEMINI_API_KEY が設定されていません"
-    exit 1
-fi
+#if [ -z "$GEMINI_API_KEY" ]; then
+#    echo "エラー: GEMINI_API_KEY が設定されていません"
+#    exit 1
+#fi
 
 # サーバーの状態を確認する関数
 check_status() {

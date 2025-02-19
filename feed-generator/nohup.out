@@ -177,3 +177,14 @@ Processing text: 彼の翔平も言ってる。睡眠大事って
 analyzeResult: YES
 ohtani-algo. Posts in database:
 ohtani-algo. Posts in database:
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+使用方法: ./start.sh {start|stop|restart|status}
+サーバーを起動します
+サーバー稼働中 (PID: 15630)
+実行時間:       00:02
+メモリ使用量:  2.3%
+CPU使用率: 24.5%
+サーバーの起動に成功しました

@@ -6,6 +6,10 @@ import { FirehoseSubscriptionBase, getOpsByType } from './util/subscription'
 import { DatabaseSchema } from './db/schema'
 import { Kysely } from 'kysely'
 
+import dotenv from 'dotenv';
+// .env.geminiファイルを明示的に指定
+dotenv.config({ path: '.env.gemini' });
+
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 import https from 'https';
 import { EventEmitter } from 'events';
@@ -26,7 +30,7 @@ const geminiAgent = new https.Agent({
     maxFreeSockets: 3,
 });
 
-const genAI = new GoogleGenerativeAI(process.env.API_KEY, {
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY, {
     transport: {
         fetchFunction: (url: string, init?: RequestInit) => {
             return fetch(url, {
@@ -116,6 +120,7 @@ const WATCHED_ACCOUNTS = [
     //  'parkermolloy.com',
     //  'fantasymlbnews.bsky.social',
     //  'mlbtraderumors.bsky.social',
+    'agent-ohtani.bsky.social',
     'webbigdata.bsky.social'
 ];
 
