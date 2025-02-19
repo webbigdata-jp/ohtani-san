@@ -17,7 +17,6 @@ export const handler = async (ctx: AppContext, params: QueryParams) => {
     .selectFrom('post')
     .selectAll()
     .orderBy('indexedAt', 'desc')
-    .orderBy('cid', 'desc')
     .limit(params.limit)
 
   if (params.cursor) {
