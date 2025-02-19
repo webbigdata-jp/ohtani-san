@@ -1,0 +1,179 @@
+yarn run v1.22.22
+$ ts-node src/index.ts
+Error: listen EADDRINUSE: address already in use ::1:4000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at GetAddrInfoReqWrap.doListen (node:net:2069:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:8) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::1',
+  port: 4000
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.22
+$ ts-node src/index.ts
+🤖 running feed generator at http://localhost:4000
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+NG keyword detected, skipping post
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+NG keyword detected, skipping post
+
+Processing text: Taxpayer money being wasted instead of helping people
+#minnesotaNice #timwalz #MayorFrey
+(node:11366) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+analyzeResult: NO
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+
+Processing text: caralho acabei de ver o video do shohei fazendo o windup do hideo nomo e n sei como ainda estou respirando sinceramente
+analyzeResult: YES
+NG keyword detected, skipping post
+
+Processing text: NO BC YOU READ MY MIND AND GET IT??? like we are the new york yankees for crying out loud we win honorably and that was the worst world series of my 20 year life- and i also am an ohtani fan and i NEEDED him to get a series under his belt
+analyzeResult: YES
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+
+Processing text: THE MAN OF MY DREAMS I LOVE SHOHEI !!!
+(node:11366) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+Error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+
+Processing text: ONE OF THE MASCOT CHARACTERS IS VOICED BY IKUE OTANI??? YEAHHHH
+analyzeResult: NO
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+
+Processing text: 水原一平被告の父「もっと翔平を調べたらいい」独占告白も…“息子の嘘” に引っかかったことに同情集まる | Smart FLASH/スマフラ[光文社週刊誌]
+
+https://www.wacoca.com/news/2425213/
+
+水原一平被告（写真・AP/アフロ）   　2月16日に配信された「NEWSポストセブン」の記事が波紋を呼んでいる。   　記事内でクローズアップされたのは、2月7日（日本時間）、米国・カリフォルニア州サンタアナの連邦地裁 [...]
+analyzeResult: YES
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+
+Processing text: 岡雨大谷雄
+analyzeResult: NO
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+
+Processing text: There is literally ZERO teams incapable of having a $200MM payroll.
+
+Any team could’ve signed Ohtani to that contract because it’ll pay for itself
+
+Difference is, Stars wanna go to teams who will commit to spending each year and trying to be the best
+analyzeResult: YES
+NG keyword detected, skipping post
+
+Processing text: I absolutely ADORE this piece I just got from @elliotanidiot.bsky.social !!! :3
+analyzeResult: NO
+NG keyword detected, skipping post
+
+Processing text: 或る教養深い婦人は、「大谷日出夫という役者は、たのもしくていいわ。あの人が出て来ると、なんだか安心ですの。決して負けることがないのです。芸術映画は、退屈です。」と言って笑った。美しい意見である。利巧ぶったら、損をする。
+(太宰治『弱者の糧』)
+analyzeResult: NO
+NG keyword detected, skipping post
+
+Processing text: Sho posed the question "how much is too much?" and I qualify my answer that I don't begrudge Vlad asking whatever he thinks he can (eventually) get but that said, it turns on AAV to me (i.e. years). In total, falling in the range between Judge (360) and Ohtani (real current value - 438) would ...
+analyzeResult: YES
+NG keyword detected, skipping post
+
+Processing text: Simply not true, even Dodgers are not currently paying for that contract. Its completely deferred. 
+
+Players go to LA and NY because they are global brands that can sell their jerseys more than anyone else in the sport. 
+
+Ohtani in Milwaukee would never have the same global reach.
+analyzeResult: YES
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+
+Processing text: put him either 3rd or 4th all-time and would be an entirely necessary offer from the team. Until you pass Ohtani it's not even a question BUT there is a difference between, say, 430 for 10 or 430 for 12 (swings your AAV by over 7 million) 
+It's been said Ortiz proposed 13/585 which is an AAV of 45
+analyzeResult: YES
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+NG keyword detected, skipping post
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+NG keyword detected, skipping post
+
+Processing text: 大谷選手に関する陰謀論を簡単に信じ込んでしまうの、ひょっとして水原被告の主張があまりにも幼稚すぎて「こんなめちゃくちゃなことを言う人間がいるはずない、彼は元々嘘をつくのが得意でない中必死に庇っているんだ」とか
+そういう感じだったりすんのかな…
+
+日本のギャンブル狂い、大体あんな感じです…額が違うだけでマジであんなんです…平気で嘘つくしなんでも人のせいにします…
+analyzeResult: YES
+ohtani-algo. Posts in database:
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+
+Processing text: Ok dude who thinks Ohtani is not a global brand.
+analyzeResult: YES
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+NG keyword detected, skipping post
+
+Processing text: 彼の翔平も言ってる。睡眠大事って
+
+一旦寝( ˘ω˘)ｽﾔｧ
+analyzeResult: YES
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:

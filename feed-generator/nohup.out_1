@@ -1,0 +1,1456 @@
+yarn run v1.22.22
+$ ts-node src/index.ts
+🤖 running feed generator at http://localhost:4000
+
+Processing text: Known mostly for his figurative works, Freud's still life and botanical paintings are no less impressive. I admire his dedicated approach to painting exactly what he sees before him.
+gemini error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite-preview-02-05:generateContent: [400 Bad Request] API key not valid. Please pass a valid API key. [{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key not valid. Please pass a valid API key."}]
+    at handleResponseNotOk (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:414:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:387:9)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22) {
+  status: 400,
+  statusText: 'Bad Request',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.ErrorInfo',
+      reason: 'API_KEY_INVALID',
+      domain: 'googleapis.com',
+      metadata: [Object]
+    },
+    {
+      '@type': 'type.googleapis.com/google.rpc.LocalizedMessage',
+      locale: 'en-US',
+      message: 'API key not valid. Please pass a valid API key.'
+    }
+  ]
+}
+analyzeResult: null
+
+Processing text: The grandson of Sigmund Freud, Lucian was born in Berlin in 1922. His family relocated to England in 1933 where he studied at Goldsmith's College.
+
+#art #fineart #artstream #britiishpainting #britishart #britishartist #lucianfreud #botanicalart #stilllife
+gemini error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite-preview-02-05:generateContent: [400 Bad Request] API key not valid. Please pass a valid API key. [{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key not valid. Please pass a valid API key."}]
+    at handleResponseNotOk (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:414:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:387:9)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22) {
+  status: 400,
+  statusText: 'Bad Request',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.ErrorInfo',
+      reason: 'API_KEY_INVALID',
+      domain: 'googleapis.com',
+      metadata: [Object]
+    },
+    {
+      '@type': 'type.googleapis.com/google.rpc.LocalizedMessage',
+      locale: 'en-US',
+      message: 'API key not valid. Please pass a valid API key.'
+    }
+  ]
+}
+analyzeResult: null
+
+Processing text: Zoobotânico intensifica ações de bem-estar animal contra calor
+https://www.band.uol.com.br/band-multi/rio-preto-e-aracatuba/noticias/zoobotanico-intensifica-acoes-de-bem-estar-animal-contra-calor-202502181225?utm_source=flipboard&utm_medium=activitypub 
+
+Posted into Notícias @not-cias-FlipboardBR
+gemini error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite-preview-02-05:generateContent: [400 Bad Request] API key not valid. Please pass a valid API key. [{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key not valid. Please pass a valid API key."}]
+    at handleResponseNotOk (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:414:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:387:9)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22) {
+  status: 400,
+  statusText: 'Bad Request',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.ErrorInfo',
+      reason: 'API_KEY_INVALID',
+      domain: 'googleapis.com',
+      metadata: [Object]
+    },
+    {
+      '@type': 'type.googleapis.com/google.rpc.LocalizedMessage',
+      locale: 'en-US',
+      message: 'API key not valid. Please pass a valid API key.'
+    }
+  ]
+}
+analyzeResult: null
+
+Processing text: Sweet... taken at Lewis Ginter Botanical Gardens Richmond VA 🌱😊
+gemini error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite-preview-02-05:generateContent: [400 Bad Request] API key not valid. Please pass a valid API key. [{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key not valid. Please pass a valid API key."}]
+    at handleResponseNotOk (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:414:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:387:9)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22) {
+  status: 400,
+  statusText: 'Bad Request',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.ErrorInfo',
+      reason: 'API_KEY_INVALID',
+      domain: 'googleapis.com',
+      metadata: [Object]
+    },
+    {
+      '@type': 'type.googleapis.com/google.rpc.LocalizedMessage',
+      locale: 'en-US',
+      message: 'API key not valid. Please pass a valid API key.'
+    }
+  ]
+}
+analyzeResult: null
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+yarn run v1.22.22
+$ ts-node src/index.ts
+🤖 running feed generator at http://localhost:4000
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+
+Processing text: in his free time he enjoys tending to a large garden kept outside of his home. he is close with fufucha fucha, leader of the botanists guild. he has worked with her since their formation to ensure that their cultivation practices please the elementals and that none of their crop goes to waste (3/3)
+analyzeResult: NO
+
+Processing text: 写楽の浮世絵「三代目大谷鬼次の奴江戸兵衛」 の絵とその解説を探しています。（東京都立中央図書館）
+https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000001885
+analyzeResult: NO
+
+Processing text: HOhei HOtani ( Ho-Ho ) deferred $680M, giving #Dodgers massive financial loophole to load up on talent.
+
+CHEATING FRAUDGERS, "biggest CHEATERS in whole fuckin' industry;" spent over $1 BILLION this offseason—far more than any other team—to buy their way to another title. #Dodgers, #ITFTD, #FreeIppei
+analyzeResult: YES
+ohtani-algo. Posts in database:
+
+Processing text: If you think you're bad with #Oddsparks 🌱 plants - stop thinking and check out this Botanical Logistics guide by *&.
+
+It introduces the primary logistical tools for working with botanical production chains, and covers planning and progression of said chains. 
+
+▶️ steamcommunity.com/sharedfiles/...
+analyzeResult: NO
+
+Processing text: Discover the surreal botanical glow on this stunning t-shirt design!
+Link: RedBubble
+ #art #surreal #botanical #nature #glow #tshirt #design #colorful #creative #vibrant
+analyzeResult: NO
+
+Processing text: 
+Your daily dose of botanical drawings  from the Botanical Magazine.
+
+Hoop-pettticoat narcissus (Narcissus bulbocodium)
+Plate 88 in volume 3, 1790.
+
+#magazine #artist #plants #curtis #botany
+
+
+analyzeResult: NO
+
+Processing text: tbh the art in bohnanza is not rly my thing, but i think it would lend itself very well to reskins
+
+flocks of birds??
+
+or keep the bean theme & do a more fanciful botanical style 
+or other plants!
+
+many possibilities
+
+fancy deluxe edition w/unique illustrations for each bean/thing would also be neat
+analyzeResult: NO
+
+Processing text: Update ohtani-san feed
+The feed should also be smarter, but it's still quite slow.
+
+Many people say they don't want to see political posts on bsky. It's totally possible, but the bottleneck is not the technology but the running cost.
+
+it is necessary to improve content caching to improve speed.
+analyzeResult: YES
+
+Processing text: TBF, Judge has been better than Ohtani in 2 of the last three years. 
+
+Now going forward is an entirely different question!
+analyzeResult: YES
+
+Processing text: 🎉 Espacios para actividades, experiencias interactivas y presencia en el Jardín Botánico de Bogotá.
+📩 Contáctanos y envía tu propuesta: famorxlanaturaleza@opepa.org
+
+#LoveFest2025 #LoveNature #NaturalezaParaTodos @nature.for.all @shambalacomunida @jardinbotanicodebogota
+analyzeResult: NO
+
+Processing text: Taken at Lewis Ginter Botanical Gardens Richmond, VA 🌱😊
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: Taken at Lewis Ginter Botanical Gardens Richmond, VA 😊🌱
+analyzeResult: NO
+
+Processing text: HOhei HOtani ( Ho-Ho ) deferred $680M of his contract, giving #Dodgers massive financial loophole to load up on talent.
+
+CHEATING FRAUDGERS, "biggest CHEATERS in whole fuckin' industry;" spent over $1 BILLION this offseason—far more than any other team—to buy their way to another title. #Dodgers
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: Jays’ garbage management had $700m for Ohtani and Soto but lowballed their franchise player with barely over half that.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: 💫we love our new display from @plusplususa ! check out some of the new tubes we have in stock including the new botanica tube!💫
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: The way is steady but the returns are meager. Look to the support of those you love to share the burden with, in them you will find returns doubled. Matched with @sydbotanica.bsky.social Angelface, a bright pink reminder of the love in my life. #NichePerfume #tarot #Nonbinary #SotD
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: 【嘘判明】水原一平（40）親族が「ちゃんと大谷さんに…」《法廷でも噓八百》 – YouTube
+
+↓↓続きはこちら↓↓
+
+https://zmedia.twitren.com/entertainment/124823/?utm_source=Bluesky
+analyzeResult: YES
+
+Processing text: なんで！大谷羽鳥誕生日ガチャは出ないかなぁぁ！！
+まじ瀬尾さんばっかりでキレる
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: The preview features THE RAMPAGE’s Shohei Urakawa, who performed the filming on location using his own words such as “Yabataji” and “Sawadee Cup.” Microsoft Start App Logo App…
+
+Read more:
+
+https://en.twitren.com/entertainment/106618/?utm_source=Bluesky
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Taken at Lewis Ginter Botanical Gardens Richmond VA 😊🌱
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: Did you know you can compost coffee grounds, nut shells, and even dryer lint? 🌱 Dive into the unexpected world of composting with this free printable guide! 🌼✨
+
+botanicalpaperworks.com/blog/infogra...?
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+
+Processing text: Science-related question:
+Does someone from botanical community there have the following monograph?
+
+J.G. Gunnarsson (1925) Monografi över Skandinaviens Betulæ
+
+Thanks.
+analyzeResult: NO
+analyzeResult: NO
+
+Processing text: I designed 8 amulets for the screen printed cloth, each inspired by the plant on a card in Botanica: Full Bloom. Each card was chosen for its meaning of hopefulness and good luck for the future - my hope is that readings on this altar cloth will instill those meanings into their reader!
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: Nádherný 😍 - já navrhovala, že o víkendu dáme se psem kolečko Hrabětice - Královka - Hrabětice (s obědem na Prezidentské), ale byla jsem přehlasována tropickou lobby (takže jedeme do Liberce do botanický a oběd v Black Horse😉).
+analyzeResult: NO
+
+Processing text: Taken at Lewis Ginter Botanical Gardens Richmond VA 😊🌱
+analyzeResult: YES
+
+Processing text: Taken at Lewis Ginter Botanical Gardens Richmond VA 😊🌱
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: 'Parchment Icelandic Poppy II'
+
+Plenty of crisp texture in the petals of this peach-coloured Icelandic poppy, from the special 'Chroma' Open Edition print series. 
+
+#floral #flower #botanical #peach #poppy #nature #color #colour #texture #art #fineart #fineartphotography #photography #interiordesign
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Taken at Lewis Ginter Botanical Gardens Richmond VA 😊🌱
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: ...I should have posted this with the other alliums, oh well
+
+Spring onion all by its lonesome
+
+#botanicalillustration #botanicalart #gardeningfeed #art
+analyzeResult: NO
+
+Processing text: Taken at Lewis Ginter Botanical Gardens Richmond, VA 😊🌱
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+
+Processing text: Sunderland's My Delhi, The Botanist and favourites at Sheepfolds Stables and Stack will be among the restaurants launching a week of special-offer menus this March
+
+Processing text: You can now see my work at Pulse PDX until the end of March! I have enjoyed taking many classes at this vibrant exercise dance studio in Portland, OR. Such a great vibe and uplifting people.
+#art #botanicalart #nativeplants #oregonart
+analyzeResult: NO
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+analyzeResult: NO
+
+Processing text: Taken at Lewis Ginter Botanical Gardens Richmond VA 😊🌱
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: Taken at Lewis Ginter Botanical Gardens Richmond, VA 😊🌱
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: “Luminous, gemlike, ghostlike, deathlike,”
+— Alfred Tennyson, from Maud: Part I, 1855.
+
+angel's trumpet (brugmansia) blossoming towards hell,
+devil's trumpet (datura) gazing at heaven ☁️🦢🦇🕸
+
+#witchyart #botanicalart #natureillustration #sketchbookart
+analyzeResult: NO
+
+Processing text: A couple of new wood slice paintings coming this week! 💖🗡️
+
+www.etsy.com/shop/realmofforgottenlore
+
+#fantasyart #paintings #botanical #flowers
+analyzeResult: NO
+
+Processing text: Hi Veo, hope you’re staying cozy where ever you are this Tuesday!
+
+I’m Audrey, mostly do digital work, lately refining my style some through botanical illustration and working on refining stuff to start selling prints. 😄
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Sawa Dee Cup” and the appearance of “Oshi”. The preview shows THE RAMPAGE’s Shohei Urakawa, who performs on-location filming using his own words such as “Yabataji” and “Sawadee Cup”…
+
+Read more:
+
+https://en.twitren.com/entertainment/106623/?utm_source=Bluesky
+analyzeResult: NO
+
+Processing text: Officially finished the painting portion of one of the two spring shows I’m in. Next up, insects.
+
+Also, here’s a great golf day tracker for you know who that’s too good not to share. trumpgolftrack.com?fbclid=IwZXh...
+
+#art #floralart #flowers #sciart #botanicalart @bsky.art #botanicalart #painting
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: cheers that's v interesting; it was in the Botanic Garden, so I imagine there was an info sign but I must not have read it
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: Original botanical painting of bleeding heart & begonias from an album of watercolour studies of “Flowers from Nature” attributed to Anne Elizabeth Nasmyth nèe Hartop (1817-1893) wife of Scottish engineer James Hall Nasmyth. Dated 1866-1868. I saw this at the National Library of Scotland.
+analyzeResult: NO
+
+Processing text: #DODGERS #Ohtani #DodgersST 💙⚾️🏆💍🌵🇯🇵🤣👍
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: Reposted with ALT text. Sorry for another tag on this guys lol 
+Characters/Models belong to: @kojjiebotanical.kawaii.social @littlemissvampy.bsky.social @megimu.bsky.social!
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: youtu.be/pcx2oeiaOI0?...
+Song: Battle with Infinite - Second bout
+Game: Sonic Forces
+Composer/Arranger: Tomoya Ohtani
+analyzeResult: Okay, I understand. I will analyze the text and respond with "YES" if it contains any reference to Shohei Ohtani (大谷翔平) or related content, and "NO" otherwise, based on the specified criteria and exceptions.
+
+Processing text: My favorite place since 1964. A gentle reminder that nature is a safe place and taking a break is good. 
+#NorfolkBotanicalGarden 
+@norfolk.bsky.social
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: A #red #tulip glows in the #sunlight at #descansogardens #lacañadaflintridge #botanicgarden
+
+#tuliptuesday #flowers #BloomScrolling #macro #macrophotography #flowerphotography  #flower #nature #photographersofbluesky #beauty #macrohour #thephotohour #bloemen #bloem #natuur #fotografie #macropix
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: 利用者・家族の心をひらく「聴き方」「声かけ」のコツ⁣ (大谷佳子/大塚紗瑛(画)⁣) が、紀伊國屋電子書籍ストアで予約開始されました。2/26(水)配信。
+5leaf.jp/kinokuniya/dsg-08-EK...
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: On this planet!!!! Not only is Ohtani a great hitter & base runner, He can pitch too. Top that Aaron Judge.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: Learned something new today 
+Sweet potatoes aren't potatoes! They belong to the morning glory family, while true potatoes are part of the nightshade family. They are botanically unrelated.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: Judge has had a few monster years. But Ohtani is other worldly. For reasons you stated. Whatever they get on the mound from him on top of his offense. It will be fun to see what he can do this year after last season with pitching on top.
+
+Processing text: Good girl, your doing so well 😘
+
+Just keep coloring your pretty pictures while daddy plops you
+
+#ecchi
+#softcore
+#cunny
+#loli
+#hentai
+#lolihentai
+#hotloli
+#hotanime
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+analyzeResult: YES
+
+Processing text: Orchids taken at Lewis Ginter Botanical Gardens Richmond VA 🌱🕷️
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: The “one-of-a-kind” property 40 kilometres east of Perth has been crafted into a botanical oasis over the course of two decades, and is expected to set a local price record next month. #news #theage #property
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: Part of the fandom despair is many of us aren’t confident in the Jays to be perceived as a winning team that superstars feel confident in after 2025.
+
+We don’t have an owner like Cohen who will top every offer.
+
+We don’t have a Soto or Ohtani to attract players.
+
+We needed Vladdy to attract players.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: 📢 The “one-of-a-kind” property 40 kilometres east of Perth has been crafted into a botanical oasis over the course of two decades, and is expected to set a local price record next month.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: Orchid taken at Lewis Ginter Botanical Gardens Richmond VA 😊🌱
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Orchid taken at Lewis Ginter Botanical Gardens Richmond VA 🌱😊
+analyzeResult: YES
+
+Processing text: Why us it a #SuperDemic
+@organicbotanic.bsky.social @elhopkins.bsky.social @mark-ungrin.bsky.social 
+bmcinfectdis.biomedcentral.com/articles/10....
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: Orchids taken at Lewis Ginter Botanical Gardens Richmond VA 😊🌱
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: Snippets of Wuppertal, including my beloved Schwebebahn, the Botanical Garden and a frankly barmy sculpture. #Germany
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: neenee. Proef eens. Het is echt appel.
+Botanische indeling maakt mij niet veel uit.  Het culinaire is belangrijkst. Het proeft als (een slechte) appel. Je kan er gelei mee maken.  
+Een rozebottel proeft echt niet als appel
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: When in doubt, play botanical jeopardy with your students. 
+
+#PlantBiology 🌱
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: ✨In our Feb. #IrisBGCommunitySpotlight profile, plant collections duo, Laura Civolani & Sam Gower, share exciting plans in store at UK's Birmingham Botanical Gardens & underline why community engagement is paramount to their career choice. #bhambotanicalgardens
+knowledge.irisbg.com/hc/en-gb/art...
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Lovely 😊🌱 Taken at Lewis Ginter Botanical Gardens Richmond VA
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: Duchess of Sutherland (Laffay, 1839)
+In "Choix des plus belles roses", by Victor Paquet, ca. 1851. Drawing by Annica Bricogne
+
+#rose #rosier #roses #heritagerose #vintagerose #historicrose #flower #roseillustration #botanic #botanicalillustration #rosemagazine
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: @void-botanist.bsky.social Hey 👋, I’m working hard to rebuild my life after the devastation of the war 💔 and support my family. I sincerely need your help— even a small donation of €5 or sharing my campaign can make a huge difference 🙏. Any help is deeply appreciated. ❤️
+Link in bio
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: 📢 The “one-of-a-kind” property 40 kilometres east of Perth has been crafted into a botanical oasis over the course of two decades, and is expected to set a local price record next month.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Not just Korean players either. I originally had Ohtani anglicized as Shohei Ōtani
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: Okay, I understand. I will analyze the text and respond with "YES" if it contains any reference or connection to Shohei Ohtani based on your criteria, and "NO" otherwise.
+
+Processing text: When spring seems far away thank God for botanical gardens. Mesmerising Prinus Persica (peach) in bloom at Edvard Anderssons växthus.🌸🍑
+analyzeResult: NO
+
+Processing text: 📝 Digital Botany to Protect Plants 🧵
+https://doi.org/n7gq
+
+A combination of modern methods and indigenous knowledge could help conserve endangered plants.
+#Botany #PlantScience 🧪 #InBrief
+
+Around the world herbaria hold records of past botanical fieldwork.
+
+Processing text: Botanists have come back from their travels with preserved plant tissues for centuries. Yet, rather than gathering dust as relics of past botanical expeditions, these collections – from Victorian-era wildflowers to Depression-era crops – are proving essential for modern research questions.
+
+Processing text: In his Tansley Review, Barnabas Daru argues preserved plants, paired with artificial intelligence, could help solve one of biology's most pressing mysteries: how Earth's botanical life will weather a warming world.
+
+Processing text: As climate shifts and cities expand, modern botanists are turning to these historical collections to understand how plants are adapting – or failing to adapt – to our rapidly changing world. Dates on specimens may reveal shifting periods of plant behaviour.
+
+Processing text: A project measuring changes in leaf size and shape that could take botanists years of measurement can now be accomplished in days. Being able to track small changes over large samples transforms the plants into a vast database of ecological change, enabling rapid answers to questions.
+
+Processing text: That speed matters, as botanists are up against a deadline.
+
+Habitats are changing or vanishing, as the planet warms, meaning some plants are in critical need of conservation help. But which plants?
+analyzeResult: NO
+analyzeResult: NO
+analyzeResult: NO
+analyzeResult: NO
+analyzeResult: NO
+analyzeResult: NO
+
+Processing text: @futurespellherbs.bsky.social @msteabotanica.bsky.social @janetkent.bsky.social @dollherbalism.bsky.social @laluneria.bsky.social @reneecamila.bsky.social @ofhawthornandyew.bsky.social  @welldeepremedies.bsky.social
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+
+Processing text: If you have that kind of perfume money you should be buying Strange Invisible instead. A 15ml bottle lasts a year of near daily use and throws all day. The botanicals used aren't bullshit either, I smelled so much like jasmine that bees would just appear near me if I stood in one spot too long.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+analyzeResult: NO
+
+Processing text: 2 yards Cotton Quilt Fabric Purple Botanica Collection Floral
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: J'avais vraiment aimé la série animée Scavengers Reign avec son bestiaire et sa botanique fantastiques ainsi que sa musique lancinante.
+
+Et voilà que j'apprends que Joe Bennett et son studio Green street pictures remettent le couvert avec une autre série : Common side effects
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Get Sprung Working With Spring! 🥰
+
+www.twitch.tv/botanicalspr...
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: These BOTANICAL BIG WIGS think they can cover our eyes in plastic leaves, but we ain't gonna let their false ferns take root 😤
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Good piece, but can we please have moratorium on the use of “landscape” (the media landscape, the business landscape, etc)—unless it is a botanical or horticultural reference. So trite.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Hurray! RICK KOTANI'S 400 MILLION DOLLAR SUMMER publishes today! My dedication in this book is “FOR THE TEAM" -- Team @harperkids.bsky.social, Team ACM, my editor Alyssa Miele, & agent @pennymoore.bsky.social have all helped make my book dreams come true. I hope you like Rick's story! #booksky
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: #notadragqueen 
+#nottrans 
+#notanimmigrant 
+#Maga it's who they are.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: Okay, I understand. Please provide the text. I will analyze it and respond with "YES" or "NO" based on the criteria you've provided.
+
+Processing text: Efeu im Winter #botanical in #watercolour 
+Ich suche jetzt einen neuen Lieblingsstift.
+analyzeResult: NO
+
+Processing text: things i need immediately:
+
+-a hug
+-to submerge myself in a large body of water
+-[redacted]
+-a leisurely stroll through a botanical garden or arboretum
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: The thing is, it makes perfect sense why they couldn't pull in Ohtani or Soto. When the next best thing is already around, is open to staying, and has ties to the country because he's literally Canadian, you have to just land that fish. I don't even care if it's an overpay.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Long overdue visit at the ELTE botanical gardens las week had my planty itch reignited a bit. Don’t neglect your interests kids, you’ll just pour gasoline on your burnout. 🫠✨
+
+Processing text: Conversando con #Botanicas de otras épocas, que nos abrieron camino:
+Aunque fue producido para un #11F, siempre es momento de recordarlas.
+ youtu.be/fKoYPmqzDo0
+#Iamabotanist
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: A coworker invited me to see the botanical gardens nearby. Isn’t everything pretty?
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: I'm not at home to get the wip to compare to this and this was the bane of my existence anyway, so much so that i actually finished the horseradish, the dreaded fruit of pelican town, behold, the salmonberry
+
+#botanicalillustration #botanicalart #gardeningfeed #art
+analyzeResult: NO
+
+Processing text: Is that at the Portland (Oregon) Botanic Garden?
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: Meirix had sworn this little flower was whispering to her, as she leaned in close, to hear a bit better, it struck, leaving a Botani in her place~
+
+This was commissioned by @tannoymouse
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: NY Botanical Garden 2015 #past #garden #Bronx #history
+analyzeResult: NO
+
+Processing text: NY Botanical Garden 2015 #historical #photos #bronx
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: Shapiro/Atkins have gotten most things wrong. It's days like today (+ Shohei, Myles Straw, lifting Berrios and the ugly boring defensive baseball they play) that just destroy us.
+Uncle. Uncle.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: The whole peanut gallery of myopic fans and media hacks decried that the Dodgers are ruining baseball with their spending while ignoring how their teams aren't putting money into their own ballclubs. The Blue Jays had enough money to offer Ohtani & Soto but not Vlad Jr.
+www.espn.com/mlb/story/_/...
+analyzeResult: YES
+
+Processing text: Sure makes it seem like the Ohtani and Soto attempts were “hey we tried, see?”
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: www.usatoday.com/story/sports...
+
+Hmm, I don't think the players want to be deferring billions. Seems like a bad way to field a team. I would hate to be the Dodgers when Ohtani's money is due.
+
+#baseball
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: Received my Botanical Interests seeds today. Very timely needed a bit of springtime hope 🪴
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: I know I've missed a lot of content since I quit twitter, especially Shohei content from Asian accounts. Hopefully there will be enough live game posting here once things start.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: If you ever need inspiration or information (and can't find it online) pop into the ABQ bugarium (botanical gardens) It's always quiet on weekdays and the entomologists on staff love sharing their knowledge
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: A  Friend is asking for support for her youngest son. If you are able, I know they will truly appreciate it. 😇😇
+
+ Zephyr  is doing a fundraiser for Mullanphy Botanical Gardens Investigative Learning Center. Please follow the link to help support Zephyr: 
+
+bobospizza.shop.matiries.com/shop-now?sel...
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: botanica organic sound design
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: Okay, I understand. I will analyze the provided text and respond with "YES" if there's any mention or connection to Shohei Ohtani (大谷翔平), his wife, his dog, or anything else related to him, and "NO" otherwise, following the specified exceptions.
+
+Processing text: That is generally the plan. I can exchange tickets for my package games to whatever games. Last year I got to combine some tickets to take a bigger group to see Ohtani on his 50-50 journey. Baseball can still be special. 
+
+Or I’ll just go to games where Sandy is pitching. That guy deserves better.
+analyzeResult: YES
+
+Processing text: Read "The Food Explorer: The True Adventures of the Globe-Trotting Botanist Who Transformed What America Eats" by Daniel Evan Stone and learn about the evolution of the FDA and the modern American food system.
+
+We need MORE people at the FDA, *not* less!
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Anyway, I babsat two of his great-great grandkids as a teen and interviewed one of his granddaughters who was a botanical painter. A lot of the US family got into art curating & the whole gallery scene.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: Elegant Botanical Square Pillow | Cozy Home Decor Accent #art #artist #artwork #drawing #love #photography #digitalart #painting #illustration #design #photooftheday #fashion #artistic #designer #sketch #beautiful #artoftheday #nature #draw #decor #style #contemporaryart #handmade #pillow #homedecor
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: If #Vladamir Guerrero Jr was offered 8-10 years at $40 million per season (that would tie the AAV that Aaron Judge signed), it would be a $320-400M contract. 
+
+But then you have Shohei and Juan Soto signing for $46M/yr (adjusted) and $51M AAV respectively, throwing a wrench into things...
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: That’s why I’m wondering if the team was just really precious in terms of access to Shohei (or was Ippei knowing what we know now) or if they just didn’t really try because it’s frustrating to see the Dodgers social create so much content with him when that never happened with the angels.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: I only really got into baseball a couple of years ago, but seeing how little they care for maintaining and strengthening existing talent, I just don't know what to think. if they can make a 800 million dollar offer for Ohtani in 2024, they can certainly put together a 400 mil deal for Vladdy now
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: 忘備録:　この再放送は録画。
+滝藤賢一　珍奇植物紀行
+@botanical.bsky.social
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Could also be used to display a dried floral and/or botanical specimen arrangement.  😁
+analyzeResult: Okay, I understand. I will analyze the provided text and respond with "YES" if it mentions Shohei Ohtani or anything related to him (including his name, wife, dog, etc.) and "NO" if it doesn't, based on the defined exceptions.
+
+Processing text: Cootes Paradise Fishway is a property of the Royal Botanical Gardens at the western end of Lake Ontario. It controls the in and out of different species. (read the sign)
+#photography #fish #ecology
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: Date night with @alpacaelypse.bsky.social featured flowers and hockey. 
+
+#build #bricks #lego #afol #familyday #botanical #love
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Date night with @alpacaelypse.bsky.social featured flowers and hockey. 
+
+#build #bricks #lego #afol #familyday #botanical #love
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Breakfast on Wednesday, February 19th. #EggOverRice. Egg over rice was prepared by OTANI from Sunami Heights, Mihara City. (Illustration is for reference only)
+analyzeResult: NO
+
+Processing text: ① #超覚寺
+②広島県広島市中区八丁堀
+③２０２５年２月１９日掲示
+④ 誰かの向かせたい方向に
+　向いてしまっているのかも？
+
+#仏教
+#南無阿弥陀仏
+#親鸞聖人
+#浄土真宗
+#真宗大谷派
+#伝道掲示板
+#お寺の掲示板
+analyzeResult: NO
+
+Processing text: Where are all the Missouri botanicas at? I need all the 7-day candles and fresh plant materia.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: Sawasdee Cup,” he responded. Mr. Ninomiya’s favorite is Shohei Urakawa of the 16-member boy group “THE RAMPAGE” belonging to LDH JAPAN. Mr. Urakawa is Mr. Ninomiya’s…
+
+Read more:
+
+https://en.twitren.com/entertainment/107181/?utm_source=Bluesky
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Suttree looked at him. He was not lovable. This adenoidal leptosome that crouched above his bed like a wizened bird, his razorous shoulderblades jutting in the thin cloth of his striped shirt. Sly, rat-faced, a convicted pervert of a botanical bent. Who would do worse when in the world again.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: They pretty much have to trade him right?  Shapiro suggested that they exceeded their valuation of him so it’s highly unlikely he’ll resign as a free agent.  They need to get something for him…it’s awful to think this way but if they go through another Soto/Shohei December with him it would suck
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: 2025年2月26日 『利用者・家族の心をひらく「聴き方」「声かけ」のコツ』 大谷佳子/大塚紗瑛 (中央法規出版) [eBooks] https://sinkan.net/?asin=BW0002132734&action_item=true #新刊情報 #sinkan
+
+Processing text: Vintage Wall Art Prints - Moody Posters, French Botanical Paintings
+50% off, DEAL price: $4.49, reg: $8.99.
+-- Use promo code: 50KYETRK
+
+Buy on Amazon ⬇️
+
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+analyzeResult: NO
+
+Processing text: 大谷 撮影でトルネード投法を披露
+https://news.yahoo.co.jp/pickup/6529767?source=rss
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: I look for it next to bare sandy well trodden footpaths…
+
+Will look to put a sand dune field meeting in the Kent Botanical Recording Group in March to kick start the programme next year 👀
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: 大谷さん、おはようございます！
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+
+Processing text: Botanica Yemaya in Overland still exists, I think.
+analyzeResult: YES
+analyzeResult: NO
+
+Processing text: 大谷さん、おはようございます☀️
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: GOOGLE : https://news.google.com/rss/articles/CBMif0FVX3lxTE9nREtCU2ttMS1ndGlQM1hwbmQzVDBubFQ4RmFfbHBSVU1NZnJvdHpDT05EbS12R3RJNlBVSThQLWRZc2I5azl6QnBvajhtalUxdUFYWHlnZGstVTN4VDVWLXcwelM4TVJGNmRtb3ZkdHpxeVZVc2NJcHJRaXZJNDQ?oc=5
+侍ジャパン井端弘和監督、ドジャースのキャンプ施設訪問 大谷、山本、佐々木とあいさつ（日刊スポーツ） - Yahoo!ニュース
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: 大谷、ストレート中心に21球 菊池や前田は実戦形式登板
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: Composition No. 259, installed in a collector’s home in Chicago.
+
+This painting was inspired by ethnographic patterns, contemporary color choices, and botanical references.
+
+Enjoy! 
+
+#contemporaryart #arte #collectorshome #curators #artcurators #artconsulting #artconsultants
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: 🪩New Record 06.20.25🪩
+Tour dates below. Grab your tickets: thebonesofjrjones.com/shows-
+
+03.07.25 Paris, FR Supersonic Records 
+03.08.25 Saint-Germain-en-Laye La CLEF 78
+03.10.25 Antwerp, BE Rock Lobster Antwerp
+03.11.25 Brussels, BE Le Botanique
+03.12.25 Ramsgate, UK Ramsgate Music Hall
+analyzeResult: NO
+
+Processing text: Botanist Beaw!!
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: Blast from the past! Good to see everyone. Good analysis on the film at the start. Then a Movie Fight!? With @halrudnick.bsky.social @roxystriar.bsky.social Mark Ellis and Mike Carlson!? Botanicus!!! 
+
+www.youtube.com/live/1da-Ppv...
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: news.yahoo.co.jp/articles/53e...
+
+どう言おうが、ジャッジは投げれないし、走れない。
+比較対象は、ソトやアクーニャ等にすればいいのに、わざわざ大谷を持ち出すのが不思議。
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: Do you know the botanical name? I only have them as annuals. Maybe you have one of these. "Morning glory shrub can refer to the bush morning glory (Convolvulus cneorum) or the pink morning glory (Ipomoea carnea).
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: A met an elderly man and his wife at a Botanical garden in Atlanta about 15+ years ago. He was an Orchid expert who traveled around the world. He said there are native Orchids all over the world in all types of climates. He was an interesting person to meet!
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: 🌿 Nature's most misunderstood snack: Cashews aren't nuts, they're botanical rebels with toxic secrets! Discover the wild journey from strange fruit to your favorite treat. Our deep dive reveals mind-blowing facts tomorrow. 🚀 #FeedYourCuriosity #Science www.feedyourcuriosity.blog/subscribe
+analyzeResult: NO
+
+Processing text: Recognizing that I sleep better when I take a gummy before bed, I took these apple cider gummies for my recent bout with insomnia. Here’s how they hit.
+
+#insomnia #cannabis #MedicalMarijuana #gummies #sleep #TheBotanist
+
+emilysuess.com/2025/01/29/t...
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: 📚💙🧶 #BookDrop #booksky #knitting #Handcrafted #Craftiverse
+
+#Botanical-Knits-2: Twelve More Inspired Designs to Knit and Love. the patterns in this book celebrate the beauty of the natural world in color and in design. Each project will delight and challenge knitters
+
+os5.mycloud.com/action/share...
+analyzeResult: NO
+
+Processing text: Grateful for the good work at Jardin Botanico Vallarta
+analyzeResult: Okay, I understand. I will analyze the text and respond with "YES" if it contains any reference or connection to Shohei Ohtani, as defined in your instructions, and "NO" otherwise.
+
+Processing text: 今ひとりで絵・漫画・文章の三刀流やってるから私って大谷越えてロロノア・ゾロなのかも
+analyzeResult: YES
+
+Processing text: 水原一平父「こんな犯罪、一人でできるわけがない。」→大谷さん大ピンチへ https://baseball-mag.net/?eid=987740
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: So deeply moving.
+
+I visit this museum frequently. It’s next to the Rhododendron Species Botanical Garden down in Federal Way.
+
+Have you been able to visit?
+analyzeResult: NO
+
+Processing text: Coast Redwoods a few days ago at South Coast Botanic Garden.
+
+#TallTreeTuesday #trees #nature #California #LosAngeles
+analyzeResult: NO
+
+Processing text: A piece I created last year for the Windows on the Garden exhibition at the Botanical Garden! Pansies were my mom's favorite 🌸
+
+#art #exhibit #flowers
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: The ball is now firmly in Vladdy’s corner. If Major League Baseball, not Toronto sportswriters or certain baseball enthusiasts, consider him in a league close to Ohtani or Juan Soto, you bet Vladdy will get every penny he wants and even more. So Vladdy, this year is as good as any to show them.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: 利用者・家族の心をひらく「聴き方」「声かけ」のコツ マンガとイラストでユル～く学ぶ介護⁣ (大谷佳子,大塚紗瑛(画)⁣) が、Kindle化されました。2/26(水)配信。
+5leaf.jp/kindle/B0DXKC46L4/#a...
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: ✅ 𝙀𝙣𝙫𝙞́𝙤 𝙂𝙍𝘼𝙏𝙄𝙎 📦✈️ 
+🏆 𝙂𝙖𝙣𝙖 𝙋𝙐𝙉𝙏𝙊𝙎 𝙮 𝙘𝙖𝙢𝙗𝙞𝙖𝙡𝙤𝙨 𝙥𝙤𝙧 𝘿𝙄𝙉𝙀𝙍𝙊 🪙 👇
+
+👉 Trajes Yoruba de Hombre 👈
+
+🛍 https://ojayoruba.com/traje-yoruba/
+
+#ojayoruba #ifa #botanica #orumila #yoruba #orisa #sango #esu #alaje #epo #agboran #ejaaro #egungun #ifatradicional #yorubatradicional
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Vlad thinks he's the best hitter in the world. He thought that even after 2023. It stands to reason that he thinks he should be getting paid in the same tier as Soto and Ohtani
+analyzeResult: YES
+
+Processing text: Bird of paradise flower. I'm starting to get hyped for my big project 😄 #botanicalart #flower
+#art #blueskyart #sciart #artsky #dailypainting #painting  #botanicalart #flower #traditionalart #watercolourpaimting
+analyzeResult: NO
+
+Processing text: Bird of paradise flower. I'm starting to get hyped for my big project 😄 #botanicalart #flower
+#art #blueskyart #sciart #artsky #dailypainting #painting  #botanicalart #flower #traditionalart #acylicgouache
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: He’s one of the best hitters in the world. But I promise you he wasn’t asking for Ohtani/Soto money.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: ベランダの植物と朝ごはん
+#青空ごはん部 #自炊班
+#GardeningFeed 🌱
+@botanical.bsky.social
+analyzeResult: NO
+
+Processing text: Ross Atkins and Mike Shapiro should be fired for not signing Vladdy. I get they don’t want to pay Ohtani money but they should be willing to pay Soto money.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: Bird of paradise flower. I'm starting to get hyped for my big project 😄 #botanicalart #flower
+#art #blueskyart #sciart #artsky #dailypainting #painting  #botanicalart #flower #traditionalart #acylicgouache
+analyzeResult: NO
+
+Processing text: Bird of paradise flower. I'm starting to get hyped for my big project 😄 #botanicalart #flower
+#art #blueskyart #sciart #artsky #dailypainting #painting  #botanicalart #flower #traditionalart #acylicgouache
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: 妖怪に心臓を捧げております、妖怪シンガーソングライターTAROZAの次回妖怪ライブ情報です✨
+
+西院ネガポジ
+3月4日(火)
+オープン18:30 スタート19:30
+前売¥2,000 当日¥2,300
+
+出演
+mix generation
+ペイソン
+TAROZA
+大谷秀樹
+（3番目の出演です）
+
+ご予約お待ちしております！
+よろしくお願いします😄
+analyzeResult: NO
+
+Processing text: not going to be impressed with Ohtani until he wins the super bowl until then Deion Sanders will be a better baseball player all time sadly
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: 7. in his main wolverse, he is a warrior that just loves adventuring and the situations that gets him in. in his nonwolverse, he's a botanist and has a small shop where he sells various flora from the jungle region
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: きたきたきたきたきたきたー
+@botanical.bsky.social
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: when my partner and i had our first date neither of us were sure if it was a date. THEY ASKED ME OUT AND DID NOT KNOW. we wandered the botanic gardens & had a glass of wine & we both spent the whole time trying to figure out what the vibe was
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: #Alphabetchallenge
+#WeekHforhero
+
+Botanical Power!
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: I also agree that Angels don't have the depth right now to sign another high-priced FA. Angels have too many holes to fill to spend that kind of money on one player.... But I believe Arte could have made more money by spending more when the Angels had Ohtani and if Arte didn't sign Rendon
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: “Well in lieu of melody and rhythm there’s texture…and there actually is rhythm but it requires you to look for it, it’s not just handed to you”
+
+Me describing my music to my botanist friend today
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Jared Ohtani has been SPOTTED laughing with his coffee at 3rd and Sweetzer in Beverly Grove!
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: San Francisco Botanical Garden today. The magnolias and azaleas are coming into bloom. 🙂
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: Yeah I hear you. They offer 7 to Ohtani, 6 to Soto. I would have gone to 520 with him. Best thing now is to see what he gets in FA. If he even gets there. I can't imagine if the Jays come back on March 19 with a number he would turn it down.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: It is one my faves... From the Wellington Botanical Gardens... 😍
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: „Sollen sich auch alle schämen, die gedankenlos sich der Wunder der Wissenschaft und Technik bedienen und nicht mehr davon geistig erfasst haben als die Kuh von der Botanik der Pflanzen, die sie mit Wohlbehagen frisst“.
+
+Quelle:
+wolfgang-naeser-marburg.lima-city.de/htm/einstein...
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Shohei doing the Nomo with Kenta's picture up top. So sick
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: Bugs, flowers - botanical gardens are among my favourite spots to stroll around when visiting places far from home. They give insight on the sorts of native species you can find later on hiking trails.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: She slid the pamphlets to the side and continued to read the book in her lap.
+
+"The Potioneer's Garden, Botanicals for Brewing, Pansy, honestly, what the fuck?" Blaise sat down on the squashy leather couch and took the book from her hand. "Carrow noticed you missing, you know. People talk."
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: #photography #flowers #キンギョソウ #Snapdragon @botanical.bsky.social @bskyphotos.bsky.social
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: HOhei HOtani ( Ho-Ho ) deferred $680M, giving #Dodgers massive financial loophole to load up on talent.
+
+CHEATING FRAUDGERS, "biggest CHEATERS in whole fuckin' industry;" spent over $1 BILLION this offseason—far more than any other team—to buy their way to another title. #ITFTD
+analyzeResult: YES
+
+Processing text: #photography #flowers #アラセイトウ #Araseitou @botanical.bsky.social @bskyphotos.bsky.social
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+gemini error: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at processImmediate (node:internal/timers:449:9)
+    at async makeRequest (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:381:20)
+    at async generateContent (/home/gharada2013/install/ohtani-san/feed-generator/node_modules/@google/generative-ai/dist/index.js:832:22)
+analyzeResult: null
+
+Processing text: Book here for Confident Colour mixing for Botanical watercolour, a one day workshop in Mount Eden, Auckland. Prior experience helpful but it would also suit somebody wantin to make a structured beginning.  
+www.eventbrite.com/e/1243863401...
+analyzeResult: NO
+ohtani-algo. Posts in database:
+
+Processing text: updated tulip vs original
+
+#botanicalillustration #botanicalart #art #gardeningfeed
+analyzeResult: NO
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+
+Processing text: i painted this as a thank you card for someone #illust #botanical
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Sculpture at Desert Botanical Garden.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: Oligarchs have to feel the Pain 👀 Definitely! Now that everything is in troubled Waters 🫵🏻
+Build back more efficiently for Our World🍀 Let's get families off the street and start acting like neighbors 🪷
+We were Created🤍 in Diversity 🩵the same as Botanical gardens🧡
+#EatTheRich
+#LoveIsLove🤍
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: Ohtani with his pitcher imitations again! 
+Somebody stop him! 😭😂
+
+#ShoheiOhtani #HideoNomo 
+
+📽️ @dodgers
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: YES
+
+Processing text: Welcome Modern Pink #Tulip #Floral Paper Guest Towels – Add a Touch of Elegance with Our Custom Tulip Paper Napkins, Perfect for Any Occasion! Bring Nature's Beauty to Your Table with These Botanical Floral Paper Napkins | Tulip Flower Party Supplies www.zazzle.com/z/i2dgt1ma?r...
+
+#partysupplies
+analyzeResult: NO
+
+Processing text: Sinopse: Alguém poderia chamar Hikari de extraordinariamente comum. Um dia, ela começa um novo hobby. Imaginar como seria um romance entre sua linda amiga Mari e o cara bonito da classe, Otani. 
++
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: #GRE_Catte
+
+She's a combat botanist.
+(node:3256) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+analyzeResult: NO
+
+Processing text: MCM vase with Lego. Exactly what was intended by antique glass :3 (I'll be getting planter's foam to lift the stems up higher, but I'm pleased.)
+#Midcenturymodern #mcm #lego #botanicals #legobotanicals #glasscollector
+analyzeResult: NO
+ohtani-algo. Posts in database:
+ohtani-algo. Posts in database:
+
+Processing text: Botanists... I just spent the better part of 3 days trying to find mean grain size data for a set of rice taxa. I can find the spikelet data, but I want the mature seed/grain data. Any tips? Some DB I don't know about? Or should I just keep scrolling papers?  #botany
+analyzeResult: NO
