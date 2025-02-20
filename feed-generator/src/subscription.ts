@@ -108,8 +108,9 @@ const MLB_NG_KEYWORDS = [
     '共和',
     '自民',
     '立憲',
-    'minister'
-
+    'minister',
+    'oTanik',
+    'notAnI', //#NotAnImmigrant
 ].map(keyword => keyword.toLowerCase());
 
 const MLB_KEYWORDS2 = [
@@ -141,7 +142,7 @@ const WATCHED_ACCOUNTS = [
     //  'fantasymlbnews.bsky.social',
     //  'mlbtraderumors.bsky.social',
     'agent-ohtani.bsky.social',
-    'webbigdata.bsky.social'
+    //'webbigdata.bsky.social'
 ];
 
 const systemPrompt = `You are a helpful assistant that can understand both English and Japanese text. For the given text, respond with 'YES' if it contains ANY reference or connection to Shohei Ohtani (大谷翔平), a Japanese baseball player who plays as a pitcher and fielder in the American Major League Baseball(MLB, メジャーリーグ), DODGERS(ドジャーズ). This includes:
@@ -201,22 +202,10 @@ export class FirehoseSubscription extends FirehoseSubscriptionBase {
             for (const create of ops.posts.creates) {
                 const author = create.author;
                 const text = create.record.text;
-
-                // 全部のログチェック
-                // console.log('\nProcessing text:', text);
-                // NGキーワードのチェック
                 const lowerCaseText = text.toLowerCase();
                 const lowerCaseAuthor = author.toLowerCase();
-                const hasNgKeyword = MLB_NG_KEYWORDS.some(keyword =>
-                    lowerCaseText.includes(keyword) || lowerCaseAuthor.includes(keyword)
-                );
 
-                if (hasNgKeyword) {
-                    console.log('NG keyword detected, skipping post');
-                    continue;
-                }
-
-                // 条件1: WATCHED_ACCOUNTS に含まれるアカウントの投稿であるか確認
+                // 条件1: WATCHED_ACCOUNTS に含まれるアカウントの投稿は無条件で採用
                 if (WATCHED_ACCOUNTS.includes(author)) {
                     postsToCreate.push({
                         uri: create.uri,
@@ -228,10 +217,25 @@ export class FirehoseSubscription extends FirehoseSubscriptionBase {
                     continue;
                 }
 
-                // 条件2: MLB_KEYWORDS2（フルネーム）のチェック
-                const hasFullNameKeyword = MLB_KEYWORDS2.some(keyword => lowerCaseText.includes(keyword));
+                // Step 1: MLB_KEYWORDSのチェック
+                const hasKeyword = MLB_KEYWORDS.some(keyword => lowerCaseText.includes(keyword));
+                if (!hasKeyword) {
+                    continue; // キーワードが含まれていなければ次の投稿へ
+                }
 
-                if (hasFullNameKeyword) {
+                // Step 2: MLB_NG_KEYWORDSのチェック
+                const hasNgKeyword = MLB_NG_KEYWORDS.some(keyword =>
+                    lowerCaseText.includes(keyword) || lowerCaseAuthor.includes(keyword)
+                );
+                if (hasNgKeyword) {
+                    continue; // NGワードが含まれていれば次の投稿へ
+                }
+
+                // Step 3: MLB_KEYWORDS2（フルネーム）とMLB_KEYWORDS3の組み合わせチェック
+                const hasFullNameKeyword = MLB_KEYWORDS2.some(keyword => lowerCaseText.includes(keyword));
+                const hasKeyword3 = MLB_KEYWORDS3.some(keyword => lowerCaseText.includes(keyword));
+
+                if (hasFullNameKeyword || hasKeyword3) {
                     postsToCreate.push({
                         uri: create.uri,
                         cid: create.cid,
@@ -242,36 +246,19 @@ export class FirehoseSubscription extends FirehoseSubscriptionBase {
                     continue;
                 }
 
-                // 条件3: MLB_KEYWORDS と MLB_KEYWORDS3 の組み合わせチェック
-                const hasKeyword = MLB_KEYWORDS.some(keyword => lowerCaseText.includes(keyword));
-                const hasKeyword3 = MLB_KEYWORDS3.some(keyword => lowerCaseText.includes(keyword));
-
-                if (hasKeyword) {
-                    if (hasKeyword3) {
-                        // MLB_KEYWORDS と MLB_KEYWORDS3 の両方に該当する場合は直接追加
-                        postsToCreate.push({
-                            uri: create.uri,
-                            cid: create.cid,
-                            indexedAt: new Date().toISOString(),
-                            author: author,
-                            text: text,
-                        });
-                    } else {
-                    // MLB_KEYWORDS3 に該当しない場合のみ analyzeText を実行
-                    const analyzeResult = await analyzeText(author, text);
-                    console.log('analyzeResult:', analyzeResult);
-                    if (analyzeResult === 'YES') {
-                        postsToCreate.push({
-                            uri: create.uri,
-                            cid: create.cid,
-                            indexedAt: new Date().toISOString(),
-                            author: author,
-                            text: text,
-                        });
-                    }
+                // Step 4: 上記の条件に該当しない場合のみanalyzeTextを実行
+                const analyzeResult = await analyzeText(author, text);
+                console.log('analyzeResult:', analyzeResult);
+                if (analyzeResult === 'YES') {
+                    postsToCreate.push({
+                        uri: create.uri,
+                        cid: create.cid,
+                        indexedAt: new Date().toISOString(),
+                        author: author,
+                        text: text,
+                    });
                 }
             }
-        }
 
             // データベースに保存
             try {
