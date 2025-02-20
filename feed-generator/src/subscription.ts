@@ -90,6 +90,13 @@ const MLB_NG_KEYWORDS = [
     'minnesotaNice',
     'otanidiot',
     '大谷日出夫',
+    'トランプ',
+    'イーロン',
+    ' DOGE',
+    ' 政治',
+    ' 首相',
+    'did:plc:bfc6cf4i5sqbblrzmsabefl2'
+
 ].map(keyword => keyword.toLowerCase());
 
 const MLB_KEYWORDS2 = [
