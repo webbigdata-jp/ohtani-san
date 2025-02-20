@@ -98,7 +98,7 @@ const MLB_NG_KEYWORDS = [
     ' DOGE ',
     '政治',
     '首相',
-    '大統領'
+    '大統領',
     'did:plc:bfc6cf4i5sqbblrzmsabefl2',
     ' trump',
     ' elon',
