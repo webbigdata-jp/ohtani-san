@@ -92,11 +92,20 @@ const MLB_NG_KEYWORDS = [
     '大谷日出夫',
     'トランプ',
     'イーロン',
-    ' DOGE',
-    ' 政治',
-    ' 首相',
-    'did:plc:bfc6cf4i5sqbblrzmsabefl2'
-
+    ' DOGE ',
+    '政治',
+    '首相',
+    '大統領'
+    'did:plc:bfc6cf4i5sqbblrzmsabefl2',
+    ' trump',
+    ' elon',
+    'republican',
+    'Democrat',
+    '民主',
+    '共和',
+    '自民',
+    '立憲',
+    'minister'
 ].map(keyword => keyword.toLowerCase());
 
 const MLB_KEYWORDS2 = [
@@ -140,6 +149,8 @@ const systemPrompt = `You are a helpful assistant that can understand both Engli
 Exceptions: Answer 'NO' in the following cases:
 - Otani is mentioned in a political context or in hate speech or Bad comments.
 - A person named Ohtani who is not a baseball player. (professional wrestling player, Biker, etc)
+- Text with little information, such as everyday conversation (greetings and replies)
+- Text that contains negative emotions that might make Otani fans feel bad (too much news about Otani, not interested in Otani, mentioning Otani in a political context, etc.)
 `;
 
 async function analyzeText(author: string, text: string): Promise<string | null> {
