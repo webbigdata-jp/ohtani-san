@@ -90,6 +90,9 @@ const MLB_NG_KEYWORDS = [
     'minnesotaNice',
     'otanidiot',
     '大谷日出夫',
+    'HO-HO',
+    'cheatingfraudgers',
+    'CHEATERS'
 ].map(keyword => keyword.toLowerCase());
 
 const MLB_KEYWORDS2 = [
