@@ -92,7 +92,13 @@ const MLB_NG_KEYWORDS = [
     '大谷日出夫',
     'HO-HO',
     'cheatingfraudgers',
-    'CHEATERS'
+    'CHEATERS',
+    'トランプ',
+    'イーロン',
+    ' DOGE',
+    ' 政治',
+    ' 首相',
+    'did:plc:bfc6cf4i5sqbblrzmsabefl2'
 ].map(keyword => keyword.toLowerCase());
 
 const MLB_KEYWORDS2 = [
