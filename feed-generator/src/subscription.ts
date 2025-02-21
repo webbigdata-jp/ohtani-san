@@ -125,8 +125,8 @@ const MLB_NG_KEYWORDS = [
     'Deutungshoheit',
     '出勤予定',
     '大谷吉雄',
-    '大谷地'
-
+    '大谷地',
+    '下野新聞'
 ].map(keyword => keyword.toLowerCase());
 
 const MLB_KEYWORDS2 = [
@@ -149,8 +149,7 @@ const MLB_KEYWORDS3 = [
     '野球',
     'イチロー',
     'Trout',
-    'Yankees',
-    '下野新聞'
+    'Yankees'
 ].map(keyword => keyword.toLowerCase());
 
 const WATCHED_ACCOUNTS = [
