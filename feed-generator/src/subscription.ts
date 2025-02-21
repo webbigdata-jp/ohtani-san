@@ -126,7 +126,9 @@ const MLB_NG_KEYWORDS = [
     '出勤予定',
     '大谷吉雄',
     '大谷地',
-    '下野新聞'
+    '下野新聞',
+    '財務省',
+    '神楽亜貴'
 ].map(keyword => keyword.toLowerCase());
 
 const MLB_KEYWORDS2 = [
