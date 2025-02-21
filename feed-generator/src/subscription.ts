@@ -119,7 +119,13 @@ const MLB_NG_KEYWORDS = [
     '有罪',
     'ZIP!',
     'ゴゴスマ',
-    'ゲーマー'
+    'ゲーマー',
+    '大谷育江',
+    '浦川翔平',
+    'Deutungshoheit',
+    '出勤予定',
+    '大谷吉雄',
+    '大谷地'
 
 ].map(keyword => keyword.toLowerCase());
 
@@ -141,7 +147,10 @@ const MLB_KEYWORDS3 = [
     '一平',
     '野茂',
     '野球',
-    'イチロー'
+    'イチロー',
+    'Trout',
+    'Yankees',
+    '下野新聞'
 ].map(keyword => keyword.toLowerCase());
 
 const WATCHED_ACCOUNTS = [
