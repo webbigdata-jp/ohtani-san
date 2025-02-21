@@ -111,6 +111,16 @@ const MLB_NG_KEYWORDS = [
     'minister',
     'oTanik',
     'notAnI', //#NotAnImmigrant
+    'ゲーマー',
+    '殺人',
+    '政府',
+    '与党',
+    '死者',
+    '有罪',
+    'ZIP!',
+    'ゴゴスマ',
+    'ゲーマー'
+
 ].map(keyword => keyword.toLowerCase());
 
 const MLB_KEYWORDS2 = [
@@ -200,6 +210,14 @@ export class FirehoseSubscription extends FirehoseSubscriptionBase {
             // 新規投稿の処理
             const postsToCreate: Post[] = [];
             for (const create of ops.posts.creates) {
+
+                // collectionのチェックは既にgetOpsByTypeで行われているので、
+                // ここではRecordとreplyの存在チェックのみ行う
+                const record = create.record;
+                if (!record || record.reply) {
+                    continue; // 返信の場合はスキップ
+                }
+
                 const author = create.author;
                 const text = create.record.text;
                 const lowerCaseText = text.toLowerCase();
