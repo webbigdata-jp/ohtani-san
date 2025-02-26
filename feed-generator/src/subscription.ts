@@ -128,7 +128,8 @@ const MLB_NG_KEYWORDS = [
     '大谷地',
     '下野新聞',
     '財務省',
-    '神楽亜貴'
+    '神楽亜貴',
+    '将棋ニュース'
 ].map(keyword => keyword.toLowerCase());
 
 const MLB_KEYWORDS2 = [
