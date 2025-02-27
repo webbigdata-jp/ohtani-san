@@ -129,7 +129,11 @@ const MLB_NG_KEYWORDS = [
     '下野新聞',
     '財務省',
     '神楽亜貴',
-    '将棋ニュース'
+    '将棋ニュース',
+    'nonsense',
+    'did:plc:6vwzq6ohuaspqpg3sa6ebsgw',  // はちまとニュース＠相互フォロー100%
+    'did:plc:mg4pvv3xwuiuqsco52mmnxrz',  // 東京Daysニュース＠相互フォロー100%
+    'did:plc:gp2uh5ft6quwaxscnn5ue4ug'  //サードニュース@相互フォロー100%
 ].map(keyword => keyword.toLowerCase());
 
 const MLB_KEYWORDS2 = [
