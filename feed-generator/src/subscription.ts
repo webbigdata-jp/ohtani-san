@@ -131,9 +131,27 @@ const MLB_NG_KEYWORDS = [
     '神楽亜貴',
     '将棋ニュース',
     'nonsense',
-    'did:plc:6vwzq6ohuaspqpg3sa6ebsgw',  // はちまとニュース＠相互フォロー100%
-    'did:plc:mg4pvv3xwuiuqsco52mmnxrz',  // 東京Daysニュース＠相互フォロー100%
-    'did:plc:gp2uh5ft6quwaxscnn5ue4ug'  //サードニュース@相互フォロー100%
+    'did:plc:6vwzq6ohuaspqpg3sa6ebsgw',
+    'did:plc:mg4pvv3xwuiuqsco52mmnxrz',
+    'did:plc:gp2uh5ft6quwaxscnn5ue4ug',
+    'did:plc:pjcek5qaoamijpmedlmbzwrg',
+    'did:plc:b4nxdtkio2vqjfoy24fp36lc',
+    'did:plc:rpt54tm6znn42azj24afzq77',
+    'did:plc:biplexewwns35xgbta37oynv',
+    'did:plc:vdn2uoklwqyk2oj4mim5ojjl',
+    'did:plc:5eooa77dimbvzljslztsk3ub',
+    'did:plc:h54uk2py46v7pm6z3twvs3uc',
+    'did:plc:7lmaeywdjrkvpp5dvzy2uwln',
+    'did:plc:oxp6vrs5z3txrobaokgwhjwz',
+    'did:plc:vi6yzjvkixrneajke6bv5o4e',
+    'did:plc:4rffyanupza3s5nxz6t3rvm4',
+    'did:plc:4ibpkxnmg5xsfzaridijhrw5',
+    'did:plc:pbgjxue3c3mak2pqccwak6ce',
+    'did:plc:5rl35uwncek63brndmo6cedm',
+    'did:plc:e3hgsmbkipq2hu5fe3baeb6l',
+    'did:plc:kp6wlb6xdizbgtaj4oaujx64',
+    'did:plc:wkorj6lswe56faimd4q5xrrj'
+  
 ].map(keyword => keyword.toLowerCase());
 
 const MLB_KEYWORDS2 = [
@@ -181,6 +199,7 @@ Exceptions: Answer 'NO' in the following cases:
 - A person named Ohtani who is not a baseball player. (professional wrestling player, Biker, etc)
 - Text with little information, such as everyday conversation (greetings and replies)
 - Text that contains negative emotions that might make Otani fans feel bad (too much news about Otani, not interested in Otani, mentioning Otani in a political context, etc.)
+- Criticize something else by citing Shohei Otani. Especially if it is likely to have political implications.
 `;
 
 async function analyzeText(author: string, text: string): Promise<string | null> {
