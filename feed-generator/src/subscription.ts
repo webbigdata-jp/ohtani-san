@@ -130,6 +130,7 @@ const MLB_NG_KEYWORDS = [
     '財務省',
     '神楽亜貴',
     '将棋ニュース',
+    '大谷映里',
     'nonsense',
     'did:plc:6vwzq6ohuaspqpg3sa6ebsgw',
     'did:plc:mg4pvv3xwuiuqsco52mmnxrz',
